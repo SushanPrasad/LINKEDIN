@@ -1,0 +1,58 @@
+.widget {
+    position: sticky;
+    top: 80px;
+     flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+
+}
+
+.wid_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.wid_head > h2 {
+    font-size: 16px;
+    font-weight: 800;
+
+
+}
+
+.art {
+    display: flex;
+    padding: 10px;
+
+    cursor: pointer;
+
+}
+
+.art:hover {
+    background-color: whitesmoke;
+}
+
+.artleft {
+    color: #0177b7;
+    margin-right: 5px;
+}
+
+.artleft > .MuiSvgIcon-root {
+    font-size: 16px;
+
+}
+
+.artright{
+
+    flex: 1;
+}
+
+.artright > h4 {
+
+     font-size: 14px;
+}
